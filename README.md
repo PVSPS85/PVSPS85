@@ -2,76 +2,62 @@
 
 ### 🚀 Computer Science Engineering Student
 
-I'm passionate about learning, building, and improving every day.
+I'm passionate about learning software development one step at a time.
 
-Currently, I'm exploring **Java**, **Artificial Intelligence**, **Full-Stack Development**, and **Open Source** while building real-world projects and strengthening my software engineering skills.
+Currently, I'm focusing on building strong programming fundamentals, creating real-world projects, and making meaningful open-source contributions.
 
 ---
 
 ## 🌱 Currently Learning
 
 - ☕ Java
+- 💻 C Programming
+- 🌍 Git & GitHub
 - 🤖 Artificial Intelligence
-- 🌐 Full-Stack Development
-- 📚 Data Structures & Algorithms
-- 🌍 Open Source Contribution
+- 🚀 Open Source
 
 ---
 
-## 💻 Projects
+## 🎯 My Goals
 
-I'm building projects to learn by doing.
-
-Some of the areas I'm exploring include:
-
-- 🤖 AI Applications
-- 💰 Finance & Expense Tracking
-- ✈️ Travel Planning
-- 🔐 Blockchain & Web3
-- 🌐 Full-Stack Web Applications
+- Build useful software that solves real problems.
+- Strengthen my programming and problem-solving skills.
+- Contribute to open-source projects.
+- Learn by building projects instead of only watching tutorials.
+- Grow into a skilled Software Engineer.
 
 ---
 
-## 🎯 2026 Goals
+## 💡 What I'm Working On
 
-- ✅ Master Java
-- ✅ Complete CS50
-- ✅ Build production-ready projects
-- ✅ Contribute regularly to Open Source
-- ✅ Learn System Design
-- ✅ Become a Software Engineer
+- 📚 Learning Java
+- 💻 Solving programming problems
+- 🤖 Exploring AI projects
+- 🌍 Making open-source contributions
+- 🚀 Building personal projects
 
 ---
 
-## 🛠️ Tech Stack
+## 📈 Current Journey
 
-**Languages**
+✔ Learning every day
 
-- Java
-- Python
-- JavaScript
-- C
+✔ Building projects
 
-**Tools & Technologies**
+✔ Improving my coding skills
 
-- Git
-- GitHub
-- Firebase
-- MongoDB
-- React
-- Node.js
-- Tailwind CSS
-- CrewAI
-- VS Code
+✔ Exploring AI
+
+✔ Contributing to Open Source
 
 ---
 
 ## 📫 Connect with Me
 
-- 📧 Email: **pvsaipranav2007@gmail.com**
-- 💼 LinkedIn: *
-www.linkedin.com/in/pratap-veera-sai-pranav-a32353369*
+📧 **Email:** pvsaipranav2007@gmail.com
+
+💼 **LinkedIn:** www.linkedin.com/in/pratap-veera-sai-pranav-a32353369
 
 ---
 
-> *"Every expert was once a beginner who refused to give up."* 🚀
+> **"Every expert was once a beginner who chose to keep learning."** 🚀
