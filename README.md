@@ -1,16 +1,77 @@
-## Hi there 👋
+# Hi there! 👋 I'm Pratap Veera Sai Pranav
 
-<!--
-**PVSPS85/PVSPS85** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 Computer Science Engineering Student
 
-Here are some ideas to get you started:
+I'm passionate about learning, building, and improving every day.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently, I'm exploring **Java**, **Artificial Intelligence**, **Full-Stack Development**, and **Open Source** while building real-world projects and strengthening my software engineering skills.
+
+---
+
+## 🌱 Currently Learning
+
+- ☕ Java
+- 🤖 Artificial Intelligence
+- 🌐 Full-Stack Development
+- 📚 Data Structures & Algorithms
+- 🌍 Open Source Contribution
+
+---
+
+## 💻 Projects
+
+I'm building projects to learn by doing.
+
+Some of the areas I'm exploring include:
+
+- 🤖 AI Applications
+- 💰 Finance & Expense Tracking
+- ✈️ Travel Planning
+- 🔐 Blockchain & Web3
+- 🌐 Full-Stack Web Applications
+
+---
+
+## 🎯 2026 Goals
+
+- ✅ Master Java
+- ✅ Complete CS50
+- ✅ Build production-ready projects
+- ✅ Contribute regularly to Open Source
+- ✅ Learn System Design
+- ✅ Become a Software Engineer
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+- Java
+- Python
+- JavaScript
+- C
+
+**Tools & Technologies**
+
+- Git
+- GitHub
+- Firebase
+- MongoDB
+- React
+- Node.js
+- Tailwind CSS
+- CrewAI
+- VS Code
+
+---
+
+## 📫 Connect with Me
+
+- 📧 Email: **pvsaipranav2007@gmail.com**
+- 💼 LinkedIn: *
+www.linkedin.com/in/pratap-veera-sai-pranav-a32353369*
+
+---
+
+> *"Every expert was once a beginner who refused to give up."* 🚀
