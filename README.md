@@ -15,6 +15,12 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PVSPS85/github-contribution-grid-snake/output/github-contribution-grid-snake.svg">
 </picture>
 
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=PVSPS85&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+</p>
+
+
 ## 🌱 Currently Learning
 
 - ☕ Java
