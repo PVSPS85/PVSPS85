@@ -17,8 +17,6 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
 
 ##
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-
 ## 🌱 Currently Learning
 
 - ☕ Java
