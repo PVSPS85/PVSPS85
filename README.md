@@ -16,10 +16,6 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
 </picture>
 
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PVSPS85&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-</p>
-
 
 ## 🌱 Currently Learning
 
