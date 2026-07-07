@@ -1,5 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=%F0%9F%91%8B+Hi%2C+I'm+Pratap+Veera+Sai+Pranav;%F0%9F%92%BB+Computer+Science+Engineering+Student;%F0%9F%8C%B1+Building+Projects+Every+Day" alt="Typing SVG" /></a>
-
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&height=80&lines=%F0%9F%91%8B+Hi%2C+I'm+Pratap+Veera+Sai+Pranav;%F0%9F%92%BB+Computer+Science+Engineering+Student;%F0%9F%8C%B1+Building+Projects+Every+Day" alt="Typing SVG" /></a>
 I'm passionate about learning software development one step at a time.
 
 Currently, I'm focusing on building strong programming fundamentals, creating real-world projects, and making meaningful open-source contributions.
