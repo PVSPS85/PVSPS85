@@ -19,9 +19,7 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
 
 ## 🌱 Currently Learning
 
-- ☕ Java
 - 💻 C Programming
-- 🌍 Git & GitHub
 - 🤖 Artificial Intelligence
 - 🚀 Open Source
 
