@@ -28,11 +28,14 @@ jobs:
       - name: Fetch GitHub contributions
         run: python scripts/fetch_contributions.py
 
-      - name: Generate animated heatmap
+      - name: Generate animated contribution heatmap
         run: python scripts/render_heatmap_svg.py
 
-      - name: Commit generated files
+      - name: Generate animated ASCII cat
+        run: python scripts/make_ascii_svg.py
+
+      - name: Commit generated profile art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution heatmap [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg"
+          commit_message: "chore: refresh profile art [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg ascii-cat.svg"
