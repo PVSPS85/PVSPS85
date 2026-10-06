@@ -24,14 +24,16 @@ OUTPUT_FILE = os.path.join(
 # ASCII SETTINGS
 # ---------------------------------------------------------
 
+# Smaller grid = smaller portrait
+COLS = 50
+ROWS = 24
+
+# Small terminal text
+FONT_SIZE = 6
+CHAR_WIDTH = 4.2
+LINE_HEIGHT = 6.5
+
 CHARS = " .:-=+*#%@"
-
-COLS = 72
-ROWS = 48
-
-FONT_SIZE = 9
-CHAR_WIDTH = 5.5
-LINE_HEIGHT = 10
 
 TEXT_COLOR = "#c9d1d9"
 BACKGROUND = "#0d1117"
@@ -39,9 +41,9 @@ BACKGROUND = "#0d1117"
 
 def remove_background(image):
     """
-    Your cat image has a mostly dark background.
-    Estimate the background from the image corners,
-    then turn pixels close to that background into white.
+    Detect the dark background from the four corners
+    and make those pixels transparent-looking in the
+    grayscale conversion.
     """
 
     image = image.convert("RGB")
@@ -82,8 +84,6 @@ def remove_background(image):
                 + abs(b - bg[2])
             )
 
-            # Dark pixels close to the corner background
-            # are treated as background.
             if (
                 distance < 55
                 and r < 90
@@ -91,6 +91,7 @@ def remove_background(image):
                 and b < 90
             ):
                 value = 255
+
             else:
                 value = (
                     0.299 * r
@@ -107,7 +108,8 @@ def prepare_image():
 
     image = Image.open(INPUT_FILE)
 
-    # Preserve the cat proportions.
+    # Convert to grayscale and fit into the smaller
+    # ASCII grid.
     image = ImageOps.fit(
         image,
         (COLS, ROWS),
@@ -117,8 +119,8 @@ def prepare_image():
 
     gray = remove_background(image)
 
-    # Increase contrast so the ASCII has stronger definition.
-    gray = ImageEnhance.Contrast(gray).enhance(1.7)
+    # Improve definition of the cat.
+    gray = ImageEnhance.Contrast(gray).enhance(1.8)
 
     gray = ImageOps.autocontrast(gray)
 
@@ -130,6 +132,11 @@ def pixel_to_char(value):
     index = int(
         (value / 255)
         * (len(CHARS) - 1)
+    )
+
+    index = max(
+        0,
+        min(index, len(CHARS) - 1)
     )
 
     return CHARS[index]
@@ -151,7 +158,9 @@ def generate_ascii(image):
 
             line += pixel_to_char(value)
 
-        lines.append(line.rstrip())
+        lines.append(
+            line.rstrip()
+        )
 
     return lines
 
@@ -168,13 +177,10 @@ def escape_xml(text):
 
 def build_svg(lines):
 
-    width = int(
-        COLS * CHAR_WIDTH + 40
-    )
+    # Compact SVG dimensions.
+    width = 255
 
-    height = int(
-        ROWS * LINE_HEIGHT + 70
-    )
+    height = 210
 
     svg = []
 
@@ -193,8 +199,10 @@ viewBox="0 0 {width} {height}">
     svg.append(
         f'''
 <rect
-    width="100%"
-    height="100%"
+    x="0"
+    y="0"
+    width="{width}"
+    height="{height}"
     rx="14"
     fill="{BACKGROUND}"
 />
@@ -208,10 +216,10 @@ viewBox="0 0 {width} {height}">
     svg.append(
         f'''
 <text
-    x="20"
-    y="27"
+    x="15"
+    y="22"
     font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-    font-size="13"
+    font-size="10"
     font-weight="600"
     fill="{TEXT_COLOR}">
     pranav@github ~ $ cat ./profile.txt
@@ -220,7 +228,7 @@ viewBox="0 0 {width} {height}">
     )
 
     # -----------------------------------------------------
-    # Animation definitions
+    # Animation
     # -----------------------------------------------------
 
     svg.append(
@@ -231,14 +239,14 @@ viewBox="0 0 {width} {height}">
 
 .ascii-row {
     opacity: 0;
-    animation: typeRow 0.55s ease-out forwards;
+    animation: typeRow 0.42s ease-out forwards;
 }
 
 @keyframes typeRow {
 
     0% {
         opacity: 0;
-        transform: translateX(-12px);
+        transform: translateX(-8px);
     }
 
     100% {
@@ -258,7 +266,7 @@ viewBox="0 0 {width} {height}">
     # ASCII portrait
     # -----------------------------------------------------
 
-    start_y = 52
+    start_y = 38
 
     for row, line in enumerate(lines):
 
@@ -267,14 +275,15 @@ viewBox="0 0 {width} {height}">
             + row * LINE_HEIGHT
         )
 
-        delay = row * 0.055
+        # Slight stagger creates the typing effect.
+        delay = row * 0.045
 
         svg.append(
             f'''
 <text
     class="ascii-row"
-    x="20"
-    y="{y}"
+    x="15"
+    y="{y:.1f}"
     style="animation-delay:{delay:.3f}s"
     font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
     font-size="{FONT_SIZE}px"
@@ -285,6 +294,23 @@ viewBox="0 0 {width} {height}">
 </text>
 '''
         )
+
+    # -----------------------------------------------------
+    # Footer
+    # -----------------------------------------------------
+
+    svg.append(
+        f'''
+<text
+    x="15"
+    y="{height - 10}"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="8"
+    fill="#8b949e">
+    [ ASCII CAT • PVSPS85 ]
+</text>
+'''
+    )
 
     svg.append("</svg>")
 
@@ -307,7 +333,7 @@ def main():
 
     lines = generate_ascii(image)
 
-    print("Building animated SVG...")
+    print("Building compact animated SVG...")
 
     svg = build_svg(lines)
 
