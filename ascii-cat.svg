@@ -1,0 +1,725 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="436"
+height="550"
+viewBox="0 0 436 550">
+
+
+<rect
+    width="100%"
+    height="100%"
+    rx="14"
+    fill="#0d1117"
+/>
+
+
+<text
+    x="20"
+    y="27"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="13"
+    font-weight="600"
+    fill="#c9d1d9">
+    pranav@github ~ $ cat ./profile.txt
+</text>
+
+
+<defs>
+
+<style>
+
+.ascii-row {
+    opacity: 0;
+    animation: typeRow 0.55s ease-out forwards;
+}
+
+@keyframes typeRow {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-12px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+</style>
+
+</defs>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="52"
+    style="animation-delay:0.000s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ +-===-.:.     @@@@@@@@@@@@@@@@  ***=....==+ @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="62"
+    style="animation-delay:0.055s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ +:-==:.:.                 +* @:=**+::...==+ @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="72"
+    style="animation-delay:0.110s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ +-:+=.:.                  =*++****. ....==+ @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="82"
+    style="animation-delay:0.165s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ +-.-:..                    *******  @@.::.- @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="92"
+    style="animation-delay:0.220s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ =:.:.                      *******-: @ :..- @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="102"
+    style="animation-delay:0.275s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@...                        ********#.  :..- @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="112"
+    style="animation-delay:0.330s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@ : @@                  @=@%@@@@%****=- @..- @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="122"
+    style="animation-delay:0.385s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@:.@@                @ :*@@@@@@%*****#+ @ - @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="132"
+    style="animation-delay:0.440s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@                     *@@@@@@@@%%******+   @@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="142"
+    style="animation-delay:0.495s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@        @@@@@@@@@@@.@@@@@@@@@@%*#****-@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="152"
+    style="animation-delay:0.550s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@         @  @@@@@@@@ @@@@@@@@@%   .-+*= @@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="162"
+    style="animation-delay:0.605s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@        ..: @@@@@@@-@@@@@@@@@%@@@@@@ := @@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="172"
+    style="animation-delay:0.660s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@        ::.+-@@@@@@-@@@@@@@@@%.@@@@@@@@ @@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="182"
+    style="animation-delay:0.715s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@        ***-@@@@@@ *@@@@%+*@@%:+.@@@@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="192"
+    style="animation-delay:0.770s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@       +*#. @@@@@ #@@@@@%%@@%*. @@@@  @@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="202"
+    style="animation-delay:0.825s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@        :*-     @ #@@@@***#@@%  @ @  - @@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="212"
+    style="animation-delay:0.880s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@        @:@@@@@@%%@@@@@=..-@@@#+--: -*#+@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="222"
+    style="animation-delay:0.935s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@@@    @:%@@@@@@@@@@@@@@=-%@@@@@@@@@@%@%@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="232"
+    style="animation-delay:0.990s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@@@   =+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="242"
+    style="animation-delay:1.045s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@@@   %@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@%.  @@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="252"
+    style="animation-delay:1.100s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@@@   %@@@@@@@@@@@@@@%@%**#@@@@@@@@@@@@@%:--: @@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="262"
+    style="animation-delay:1.155s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@    @ @@@@@@@@@@@@@@@@%**%@*#%@@@@@@@@@@@* @@ =.@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="272"
+    style="animation-delay:1.210s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@ +====+@@@@@@@@@@@@@@@@@@@@@@#%@@@@@@@@@@@# @@@@ @@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="282"
+    style="animation-delay:1.265s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@ +++++*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:=:@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="292"
+    style="animation-delay:1.320s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@ - @ +=++=*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+ @::@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="302"
+    style="animation-delay:1.375s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@.*.@ +=++++#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="312"
+    style="animation-delay:1.430s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@.*- :++++++=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*@@@@@ .@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="322"
+    style="animation-delay:1.485s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@ :=*+++++++++##%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=@@@@@ = @@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="332"
+    style="animation-delay:1.540s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@  -+++++++++==%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@: @@@@@@@+.@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="342"
+    style="animation-delay:1.595s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@  *=+++++++++*##@@@@@@@@@@@@@@@@@@@@@@@@@@@- @@@@@@@  @@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="352"
+    style="animation-delay:1.650s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@ :++++++++++==+@%@@@@@@@@@@@@@@@@@@@@@@# . @@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="362"
+    style="animation-delay:1.705s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@ +++++++++++++++*@@@@@@@@@@@@@@@@@@@@@* @@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="372"
+    style="animation-delay:1.760s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@ --=++++++++++++++#@@@@@@@@@@@@@@###**-@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="382"
+    style="animation-delay:1.815s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@=+++++++++++++=++#@@@@@@@@@@@%+=+:@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="392"
+    style="animation-delay:1.870s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@@@---+++++++++++++=*@%%%%@@@@@@@+++:@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="402"
+    style="animation-delay:1.925s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@.:@@@@@@@@@@@@@@--=+++++++++++++++++#######+.@@@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="412"
+    style="animation-delay:1.980s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@.:@@@@@@@@@@ :. @@-+===+++++++++++++=======+ @@@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="422"
+    style="animation-delay:2.035s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@ -:::..:::::--=========+++++++++++.@@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="432"
+    style="animation-delay:2.090s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@ +::::::::::::::::---==+++++++++=+. @@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="442"
+    style="animation-delay:2.145s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@ +::::::::::::::::=++++++++++++==#+ @@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="452"
+    style="animation-delay:2.200s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@@ +:::::::-========+++++++++++++**@@#@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="462"
+    style="animation-delay:2.255s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@:=+-::::..-===++++++++++++++++=+@@@@*@@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="472"
+    style="animation-delay:2.310s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@@=+++-:: @ @@@ =+++++++++++++++++%@#%@*@@@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="482"
+    style="animation-delay:2.365s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@@ =++++=+ @@@@@ =++++++++++++=*@@@%#*%@@ @@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="492"
+    style="animation-delay:2.420s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@@ =++++-   @@@@@ =+++++++++++++*@@@%%%@@@ @@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="502"
+    style="animation-delay:2.475s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@ :=++=+:@@@@@@@@ =+++++++++++%@@@#%@@@@@@ @@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="512"
+    style="animation-delay:2.530s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@@@.-=++++:@@@@@@@ :=+++++++++++@@@@+#@@@@@@ @@@@@@@@@@@@@@@@@
+</text>
+
+
+<text
+    class="ascii-row"
+    x="20"
+    y="522"
+    style="animation-delay:2.585s"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    font-size="9px"
+    font-weight="500"
+    xml:space="preserve"
+    fill="#c9d1d9">
+    @@@@@@@@@@@ ..:+++++- @@@@@@ *++++=======+%@@@*%@@@@@@ @@@@@@@@@@@@@@@@@
+</text>
+
+</svg>
