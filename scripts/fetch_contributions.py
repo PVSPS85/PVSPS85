@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-USERNAME = os.environ.get("GH_PROFILE_USER", "PVPSP85")
+USERNAME = os.environ.get("GH_PROFILE_USER", "PVSPS85")
 
 BASE_DIR = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..")
