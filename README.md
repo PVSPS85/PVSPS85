@@ -11,7 +11,7 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
 ## 
 <div align="center">
 
-<h3><code>pranav@github ~ $ ./contributions.sh</code></h3>
+
 
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap">
 
