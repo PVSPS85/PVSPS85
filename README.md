@@ -11,43 +11,11 @@ Currently, I'm focusing on building strong programming fundamentals, creating re
 
 ---
 
-## 🖥️ Terminal
-
-<div align="center">
-
-<h3><code>pranav@github ~ $ ./profile.sh</code></h3>
-
-<table>
-<tr>
-
-<td valign="top" width="42%">
-
-<h4 align="center"><code>cat ./profile.txt</code></h4>
-
-<img
-  src="./ascii-cat.svg"
-  width="330"
-  alt="Animated ASCII cat"
-/>
-
-</td>
-
-<td valign="top" width="58%">
-
-<h4 align="center"><code>./contributions.sh</code></h4>
-
-<img
-  src="./contrib-heatmap.svg"
-  width="500"
-  alt="GitHub contribution heatmap"
-/>
-
-</td>
-
-</tr>
-</table>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PVSPS85/github-contribution-grid-snake/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PVSPS85/github-contribution-grid-snake/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PVSPS85/github-contribution-grid-snake/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
